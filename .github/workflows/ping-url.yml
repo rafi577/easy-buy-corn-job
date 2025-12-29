@@ -3,7 +3,7 @@ name: Ping URL Every 10 Minutes
 on:
   # Runs every 10 minutes
   schedule:
-    - cron: "*/10 * * * *"
+    - cron: "*/5 * * * *"
 
   # Allows manual trigger from GitHub UI
   workflow_dispatch:
